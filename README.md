@@ -15,13 +15,13 @@ Run the script by executing:
 ```bash
 python <filename>.py
 ```
-This will output the weather information for the cities specified in `articles_id`, including:
+This will output the weather information for the cities specified in `locations`, including:
 - Лондон
 - svo (Moscow Sheremetyevo Airport)
 - Череповец
 
 ### Code Structure
-- `determine_weather(article_id)`: Fetches weather details for the given location.
+- `determine_weather(location)`: Fetches weather details for the given location.
 - Main block iterates over a list of cities to print their weather information.
 
 ## Project Goals
