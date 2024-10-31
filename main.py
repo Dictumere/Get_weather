@@ -2,7 +2,7 @@ import requests
 
 
 def determine_weather(location):
-    url_template = 'https://wttr.in/{}?'
+    url_template = 'https://wttr.in/{}'
     url = url_template.format(location)
     payload = {'lang': 'ru', 'M': '', 'n': '', 'q': '', 'T': '', '3': ''}
     response = requests.get(url, params=payload)
