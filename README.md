@@ -3,7 +3,7 @@
 This Python script retrieves weather information for a list of cities by interacting with the [wttr.in](https://wttr.in) weather service. It outputs the weather data for specified locations in Russian.
 
 ## Installation Instructions
-1. Clone the repository:
+1. You can either clone the public repository or, download the [tarball](https://github.com/Dictumere/Get_weather.git):
 ```bash
 git clone https://github.com/Dictumere/Get_weather.git
 ```
