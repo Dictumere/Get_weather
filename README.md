@@ -12,11 +12,7 @@ pip install poetry
 ```bash
 poetry install
 ```
-4. Activate the virtual environment:
-```bash
-poetry shell
-```
-5. Alternative: If you need to install dependencies in requirements.txt without using Poetry, use:
+4. Alternative: If you need to install dependencies in requirements.txt without using Poetry, use:
 ```bash
 pip install -r requirements.txt
 ```
