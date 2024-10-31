@@ -3,17 +3,28 @@
 This Python script retrieves weather information for a list of cities by interacting with the [wttr.in](https://wttr.in) weather service. It outputs the weather data for specified locations in Russian.
 
 ## Installation
-
-Ensure Python 3 is installed. Install required dependencies with the following command:
+1. Ensure Python 3 is installed.
+2. Install Poetry (if not already installed). Use:
+```bash
+pip install poetry
+```
+3. Install dependencies from ```pyproject.toml``` using:
+```bash
+poetry install
+```
+4. Activate the virtual environment:
+```bash
+poetry shell
+```
+5. Alternative: If you need to install dependencies in requirements.txt without using Poetry, use:
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
 
 Run the script by executing:
 ```bash
-python <filename>.py
+python main.py
 ```
 This will output the weather information for the cities specified in `locations`, including:
 - Лондон
