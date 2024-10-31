@@ -5,7 +5,7 @@ This Python script retrieves weather information for a list of cities by interac
 ## Installation Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/determine_weather.git
+git clone https://github.com/your-username/Get_weather.git
 ```
 2. Install the required dependencies:
 ```bash
